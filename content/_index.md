@@ -1,13 +1,16 @@
 +++
-title = "Bennett's Rust Journal"
+title = "About 1zh3n（非真）"
 +++
 
-## Hello, this is a simple dev blog.
+# 非真（1zh3n）的博客
 
-This is a simple dev blog that I made [for my website](https://bennett.dev).
-It's quite easy to install, just go to the [project page](https://github.com/bennetthardwick/simple-dev-blog-zola-starter) and follow the prompts.
+- 前端：Vue、TypeScript
+- 后端：NestJS、Docker
+- 其他：Rust
 
-This template does some fancy stuff like [pre-rendering](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content) blog posts and nav links,
-pre-fetching your profile image and adding a bunch of common meta tags.
+[Twitter](https://twitter.com/1zh3n)
 
-If you're still making up your mind, feel fee to take a look around by clicking the [about](/about/) and [blog](/blog/) nav links.
+[Github](https://github.com/1zh3n)
+
+[Email](mailto:spectres@qq.com)
+

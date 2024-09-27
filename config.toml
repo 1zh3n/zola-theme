@@ -1,54 +1,48 @@
 # The URL the site will be built for
-base_url = "https://simple-dev-blog-zola-starter.netlify.app/"
+base_url = "https://1zh3n.pages.dev"
+
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+
+taxonomies = [{ name = "tags" }]
+
+[markdown]
 highlight_code = true
 highlight_theme = "demain"
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-title = "Simple Dev Blog"
-description = "A simple dev blog theme with no javascript, prerendered linked pages and SEO tags."
+# The site title and description; used in feeds by default.
+title = "非真的博客"
+description = "非真的博客。Typescript、Rust、Network。"
 
 generate_feed = true
 
-taxonomies = [
-  { name = "tags" }
-]
+
+author = "1zh3n（非真）"
 
 [extra]
-
 dark_mode = false
 
-nav = [
-  { name = "About", path = "/about/" },
-  { name = "Blog", path = "/blog/" }
-]
+nav = [{ name = "文章", path = "/articles/" }]
 
-latest_text = "Check out my latest post:"
 
-icon = "icon.png"
+icon = "favicon.png"
 profile_small = "icon.png"
-profile_large = "profile.jpg"
 
 accent = "#05a081"
 accent_light = "#82d0c0"
 
-author = "John Doe"
 
 footer_about = """
-A simple dev-blog theme created by Bennett. You can follow him on [Github](https://github.com/bennetthardwick) (if you like).
-"""
+Except where otherwise noted , content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
-footer_page = """
-© 2021, all rights reserved
+Orange favicon by tulpahn - [Flaticon](https://www.flaticon.com/free-icons/orange)
 """
 
 not_found_message = """
-This is not the page you're looking for... return back to [safety?](/)
+This is not the page you're looking for... return back to [home?](/)
 """
